@@ -5,8 +5,10 @@ public class Main {
     public static void main(String[] args) {
     PiggyBank myBank;
 
+    //Create New Piggy Bank
     myBank = new PiggyBank();
 
+    //Add Money to Piggy Bank
     myBank.addMoney(new Quarter(1));
     myBank.addMoney(new Dime(1));
     myBank.addMoney(new Dollar(5));
@@ -15,12 +17,8 @@ public class Main {
     myBank.addMoney(new Dollar(1));
     myBank.addMoney(new Penny(10));
 
-
-
-
-
-
-        myBank.totalCash();
+    //Print Piggy Bank Total Cash
+    myBank.totalCash();
     }
 
 }
